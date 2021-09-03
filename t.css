@@ -189,10 +189,6 @@ div.role3 pre {
   color: crimson;
 }
 
-img[src*="/upload/TS/pcard-photo/2019067.jpg"] {
-  animation: reveal .5s;
-}
-
 @keyframes reveal {
 
   0%,
