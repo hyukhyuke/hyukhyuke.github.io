@@ -1,10 +1,10 @@
-@import url(https://fonts.googleapis.com/css2?family=Single+Day&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Nanum+Pen+Script);
 @import 'icofont.css';
 @import 'font.css';
 
 /* 업무 영역 */
 div.role1 {
-  font-family: Single Day;
+  font-family: Nanum Barun Gothic;
   color: #1d1d1f;
   font-size: 17px;
   padding-top: 30px;
@@ -130,10 +130,6 @@ p.pj {
   color : pink;
 }
 
-p.mb:hover,
-p.ph:hover {
-  font-size: 1.8em;
-}
 
 p.bd {
   animation: reveal 1s;
