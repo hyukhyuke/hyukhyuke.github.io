@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css?family=Nanum+Pen+Script);
+@import 'icofont.css';
+@import 'font.css';
+
+/* 업무 영역 */
+div.role1 {
+  font-family: Nanum Barun Gothic;
+  color: #1d1d1f;
+  font-size: 17px;
+  padding-top: 30px;
+  animation: reveal 1s;
+}
+
+div.role1 div.ha,
+div.role1 div.wa {
+  animation: reveal 1s;
+  padding: 30px;
+}
+
+div.role1 div.ha {
+  background-color: #fafafa;
+  margin-bottom: 20px;
+}
+
+div.role1 div.wa {
+  background-color: black;
+  color: white;
+}
+
+div.role1 p.subtitle {
+  color: #bf4800;
+  font-size: 12px;
+}
+
+div.role1 h2 {
+  font-size: 44px;
+  margin: 15px 0 25px;
+}
+
+div.role1 p.role {
+  font-size: 20px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+div.role1 p.since {
+  margin-top: 25px;
+}
+
+div.role1 div.chips {
+  margin: 20px 0;
+}
+
+div.role1 div.chips p {
+  display: inline-block;
+  background-color: rgb(0, 113, 227);
+  color: white;
+  border-radius: 20px;
+  padding: 6px 12px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+div.role1 input,
+div.role1 input:not(:checked)~pre,
+div.roles-wrapper>input,
+div.roles-wrapper>input:not(:checked)~div,
+div.roles-wrapper>input#role2-hider:not(:checked)~label.more[for="role1-hider"] {
+  display: none;
+}
+
+label.more {
+  color: #06c;
+  cursor: pointer;
+}
+
+label.more:hover {
+  text-decoration: underline;
+}
+
+label.more::after {
+  content: '\ea5b';
+  font-family: IcoFont;
+  display: inline-block;
+  transition: transform ease .2s;
+}
+
+input:checked+label.more::after {
+  transform: rotate(-180deg);
+}
+
+label.more[for="role2-hider"],
+label.more[for="role1-hider"] {
+  /* opacity: 0.3; */
+  display: none;
+}
+
+div.role1 pre {
+  animation: reveal .5s;
+  font-family: Nanum Pen Script;
+  font-size: 1.3em;
+}
+
+/* div.wa 하위 */
+div.role1 div.wa>p:first-child {
+  margin: 10px 0 30px;
+}
+
+div.role1 div.wa div.img {
+  background: url(https://kr.tmaxsoft.com/upload/imgs/product/20130821103406_106.png) no-repeat bottom right, linear-gradient(160deg, transparent 50%, #888, transparent);
+  height: 300px;
+  margin: 0 -30px -30px;
+}
+
+
+/* 번호 영역 */
+p.mb,
+p.ph {
+  font-family: Nanum Pen Script;
+  animation: reveal .9s;
+  transition: font-size ease .2s;
+  font-size: 1.6em;
+}
+
+p.mb:hover,
+p.ph:hover {
+  font-size: 1.8em;
+}
+
+p.bd {
+  animation: reveal 1s;
+}
+
+p.bd::before {
+  font-family: IcoFont;
+  content: '\e98a';
+  color: deepskyblue
+}
+
+/* 요약된 업무 영역 */
+
+div.role2 {
+  background: url(https://c.pxhere.com/photos/fb/b3/star_glow_night_sky_dark_milky_way-184039.jpg!d) no-repeat calc(50% - 50px) calc(50% - 220px)/800px fixed, rgb(9, 7, 8);
+  height: 500px;
+  padding: 30px;
+  font-family: Nanum Pen Script;
+}
+
+@media (min-device-width: 480px) {
+  div.role2 {
+    background-position: calc(50% + 50px) calc(50% - 220px);
+  }
+}
+
+div.role2 p {
+  font-size: 1.5em;
+  padding: 1px 10px;
+  color: white;
+  animation: reveal 1.5s;
+}
+
+div.role2 div {
+  /* border: 2px solid white; */
+  padding: 10px;
+  max-width: 250px;
+  margin-top: 30px;
+  animation: reveal 1s;
+}
+
+div.role2 p.ha {
+  background: linear-gradient(45deg, crimson, transparent)
+}
+
+div.role2 p.wa {
+  background: linear-gradient(45deg, mediumslateblue, transparent);
+  margin-top: 60px;
+}
+
+div.role2 p.ha,
+div.role2 p.wa {
+  font-size: 2em;
+  padding: 3px 5px;
+  margin-bottom: 3px;
+}
+
+div.role3 pre {
+  animation: reveal 1s;
+  font-family: inherit;
+  color: crimson;
+}
+
+img[src*="/upload/TS/pcard-photo/2019067.jpg"] {
+  animation: reveal .5s;
+}
+
+@keyframes reveal {
+
+  0%,
+  50% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
