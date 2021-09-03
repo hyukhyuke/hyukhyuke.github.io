@@ -122,6 +122,13 @@ p.ph {
   font-size: 1.6em;
 }
 
+p.pj {
+  font-family: Nanum Pen Script;
+  animation: reveal .9s;
+  transition: font-size ease .2s;
+  font-size: 1em;
+}
+
 p.mb:hover,
 p.ph:hover {
   font-size: 1.8em;
