@@ -127,6 +127,7 @@ p.pj {
   animation: reveal .9s;
   transition: font-size ease .2s;
   font-size: 1.45em;
+  color : pink;
 }
 
 p.mb:hover,
