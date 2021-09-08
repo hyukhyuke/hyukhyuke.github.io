@@ -147,7 +147,7 @@ p.pa {
 p.pp {
   font-family: 'Press Start 2P';
   font-size: 1em;
-  color : green;
+  color : lime;
   animation: blink-effect 1s step-end infinite;
 }
 
