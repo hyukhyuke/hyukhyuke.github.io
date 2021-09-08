@@ -123,6 +123,10 @@ p.mb{
   color : darkgreen;
 }
 
+p.ic{
+   color : darkgreen;
+}
+
 p.ph {
   font-family: Nanum Pen Script;
   animation: reveal .9s;
