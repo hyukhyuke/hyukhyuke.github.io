@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Nanum+Pen+Script);
 @import url(https://fonts.googleapis.com/css2?family=Allison);
+@import url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap);
 @import 'icofont.css';
 @import 'font.css';
 
@@ -137,6 +138,11 @@ p.pa {
   color : blue;
 }
 
+p.pp {
+  font-family: Press Start 2P;
+  font-size: 1em;
+  color : green;
+}
 
 p.bd {
   animation: reveal 1s;
