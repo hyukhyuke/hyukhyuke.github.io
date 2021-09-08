@@ -148,6 +148,7 @@ p.pp {
   font-family: 'Press Start 2P';
   font-size: 1em;
   color : green;
+  animation: blink-effect 1s step-end infinite;
 }
 
 p.bd {
@@ -220,3 +221,5 @@ div.role3 pre {
     transform: translateY(20px);
   }
 }
+
+@keyframes blink-effect { 50% { opacity: 0; } }
