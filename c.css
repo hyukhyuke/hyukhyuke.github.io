@@ -152,10 +152,7 @@ p.pp {
 }
 
 div.pp {
-  font-family: 'Press Start 2P';
-  font-size: 1em;
-  color : lime;
-  animation: blink-effect 1s step-end infinite;
+  background-color:black;
 }
 
 p.bd {
