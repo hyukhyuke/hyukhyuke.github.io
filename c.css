@@ -151,6 +151,13 @@ p.pp {
   animation: blink-effect 1s step-end infinite;
 }
 
+div.pp {
+  font-family: 'Press Start 2P';
+  font-size: 1em;
+  color : lime;
+  animation: blink-effect 1s step-end infinite;
+}
+
 p.bd {
   animation: reveal 1s;
 }
