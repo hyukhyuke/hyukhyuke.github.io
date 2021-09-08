@@ -117,7 +117,11 @@ div.role1 div.wa div.img {
 
 
 /* 번호 영역 */
-p.mb,
+p.mb{
+  font-family: Nanum Pen Script;
+  font-size: 1.4em;
+}
+
 p.ph {
   font-family: Nanum Pen Script;
   animation: reveal .9s;
