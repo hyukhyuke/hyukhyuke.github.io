@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Nanum+Pen+Script);
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 @import 'icofont.css';
 @import 'font.css';
 
@@ -128,6 +129,12 @@ p.pj {
   transition: font-size ease .2s;
   font-size: 1.45em;
   color : pink;
+}
+
+p.pa {
+  font-family: 'Allison', cursive;
+  font-size: 1.4em;
+  color : blue;
 }
 
 
