@@ -1,6 +1,7 @@
-@import url(https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Press+Start+2P&family=Allison&family=Single+Day);
-//@import url(https://fonts.googleapis.com/css2?family=Allison);
-//@import url(https://fonts.googleapis.com/css2?family=Press+Start+2P);
+@import url(https://fonts.googleapis.com/css?family=Nanum+Pen+Script);
+@import url(https://fonts.googleapis.com/css2?family=Allison);
+@import url(https://fonts.googleapis.com/css2?family=Press+Start+2P);
+@import url(https://fonts.googleapis.com/css2?family=Single+Day);
 @import 'icofont.css';
 @import 'font.css';
 
@@ -125,7 +126,7 @@ p.ph {
 }
 
 p.pj {
-  font-family: Single Day;
+  font-family: 'Single Day';
   animation: reveal .9s;
   transition: font-size ease .2s;
   font-size: 1.45em;
@@ -139,7 +140,7 @@ p.pa {
 }
 
 p.pp {
-  font-family: Press Start 2P;
+  font-family: 'Press Start 2P';
   font-size: 1em;
   color : green;
 }
